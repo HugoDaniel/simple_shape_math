@@ -7,8 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2021-03-27
+
 ### Added
 
-## [1.0.0] - 2021-03-13
-
-
+- Initial implementation for Vector2D, Map2D and Set2D
