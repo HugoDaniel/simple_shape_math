@@ -14,7 +14,7 @@ tricks, just plain TS code. For real math avoid this lib and use the GPU instead
 
 This lib provides the `Map2D`, `Set2D` and `Vector2D` objects.
 
-### `Map2D`
+### Map2D
 
 `Map2D` is a Map of 2D coordinates to some value. It can map pairs of (x,y)
 numbers to a value. It is useful for 2D grids, where each cell can have a value.
@@ -52,7 +52,7 @@ for(const [[x, y], value] of grid.entries()) {
 }
 ```
 
-### `Set2D`
+### Set2D
 
 `Set2D` is a Set of 2D coordinates. It can keep pairs of (x,y) numbers, and
 test if a given pair is present. It is useful to test the uniqueness of 2D
@@ -77,6 +77,8 @@ unique.add({ x: 123, y: 321 });
 // Values can be specified with just their x, y numbers values by calling `addXY`
 unique.addXY(1337, 7331);
 
+console.log(unique.has({ x: 123, y: 321 })); // prints "true"
+
 // Iterate through the Set2D values with the common JS aproaches:
 const allValues = [...unique.values()];
 // ^ [{ x: 123, y: 321 }, { x: 1337, y: 7331 }]
@@ -91,7 +93,7 @@ for(const [[x, y], value] of unique.entries()) {
 }
 ```
 
-### `Vector2D`
+### Vector2D
 
 `Vector2D` represents a 2D point or vector. It is an object with `x` and `y`
 number attributes.
