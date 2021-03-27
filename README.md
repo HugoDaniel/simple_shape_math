@@ -120,9 +120,13 @@ console.log(Vector2D.isBetween(v1, v2, v3)); // prints "true"
 
 ## Developer notes
 
-The main file and code flow entry point is [`simple_shape_math.ts`](https://github.com/HugoDaniel/simple_shape_math/blob/main/simple_shape_math.ts).
+This lib has no main entry point. Each file is intended to be imported as they
+are needed.
 
-If you are interested in contributing this is a cool place to start reading the code.
+If you are interested in contributing then the best place to start is by reading
+the [`vector.ts`](https://github.com/HugoDaniel/simple_shape_math/blob/master/vector.ts) code.
+
+This is where the `Vector2D` is declared and is a simple class to start reading.
 
 ### Make commands
 
