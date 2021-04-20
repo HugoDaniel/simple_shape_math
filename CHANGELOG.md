@@ -7,8 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2021-04-20
+- Invert matrix.
+
 ## [1.0.0] - 2021-03-27
 
 ### Added
-
 - Initial implementation for Vector2D, Map2D and Set2D
+- Matrix code from m4.js.
+
+
