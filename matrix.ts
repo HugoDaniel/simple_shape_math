@@ -209,7 +209,7 @@ export function multiply(a: MatrixInput, b: MatrixInput, dst?: MatrixInput) {
   return dst;
 }
 
-export function inverse(m, dst) {
+export function inverse(m: MatrixInput, dst?: MatrixInput) {
   dst = dst || new Float32Array(16);
 
   const m00 = m[0 * 4 + 0];
